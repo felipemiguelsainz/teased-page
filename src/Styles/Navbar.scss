@@ -1,0 +1,31 @@
+.navbar {
+    color: black;
+    .brand-name-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .brand-name{
+            width: 100%;
+            text-align: center;
+            font-size: 50px;  
+        }
+        .brand-slogan{
+            span{
+                font-style: italic;
+            }
+        }
+    }
+    .items-navbar{
+        display: flex;
+        justify-content: center;
+        .list-items-navbar{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            li{
+                text-decoration: underline;
+                margin: 20px 40px;
+            }
+        }
+    }
+}

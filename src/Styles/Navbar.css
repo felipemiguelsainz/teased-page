@@ -1,0 +1,49 @@
+.navbar {
+  color: black;
+}
+
+.navbar .brand-name-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navbar .brand-name-container .brand-name {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.navbar .brand-name-container .brand-slogan span {
+  font-style: italic;
+}
+
+.navbar .items-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .items-navbar .list-items-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.navbar .items-navbar .list-items-navbar li {
+  text-decoration: underline;
+  margin: 20px 40px;
+}
+/*# sourceMappingURL=Navbar.css.map */
